@@ -1,6 +1,6 @@
-sendBtn = document.getElementById('sendBtn')
+const sendBtn = document.getElementById('sendBtn')
 sendBtn.addEventListener('click', () => {
-    nota = Number(document.getElementById('nota').value)
+    const nota = Number(document.getElementById('nota').value)
     if (nota >= 7) {
         console.log('Aprovado')
     } else if (nota >= 5) {
